@@ -1,0 +1,20 @@
+name:                hangman
+version:             0.1.0.0
+synopsis:            Hangman exercise from Haskell Book
+-- description:
+homepage:            https://github.com/muadjb/hangman#readme
+license:             BSD3
+license-file:        LICENSE
+author:              Jeff Button
+maintainer:          jeffreyjbutton@gmail.com
+copyright:           Copyright (c) 2019 Jeff Button
+category:            Web
+build-type:          Simple
+cabal-version:       >=1.10
+extra-source-files:  README.md
+
+executable hangman
+  hs-source-dirs:      src
+  main-is:             Main.hs
+  default-language:    Haskell2010
+  build-depends:       base >= 4.7 && < 5, random, split
